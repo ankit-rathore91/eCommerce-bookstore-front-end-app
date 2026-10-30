@@ -8,8 +8,8 @@ export default function Header({ query, setQuery, genre, setGenre, onCartOpen })
   const { count } = useCart();
   return <header className="sticky top-0 z-30 border-b border-black/5 bg-paper/95 backdrop-blur">
     <div className="mx-auto flex max-w-7xl items-center gap-3 px-4 py-4 sm:px-6 lg:px-8">
-      <a href="#catalog" className="mr-auto flex items-center gap-2 text-xl font-bold tracking-tight text-ink" aria-label="Leaf & Lore home">
-        <span className="grid h-9 w-9 place-items-center rounded-full bg-ink text-paper">L</span><span className="hidden sm:block">Leaf & Lore</span>
+      <a href="#catalog" className="mr-auto flex items-center gap-2 text-xl font-bold tracking-tight text-ink" aria-label="eCommerce Book Store home">
+        <span className="grid h-9 w-9 place-items-center rounded-full bg-ink text-paper">A</span><span className="hidden sm:block">eCommerce Book Store</span>
       </a>
       <label className="relative hidden w-full max-w-md md:block">
         <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-sage" size={18} aria-hidden="true" />
